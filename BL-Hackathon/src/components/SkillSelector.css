@@ -1,0 +1,124 @@
+.skill-selector {
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+}
+
+.skill-label {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Category Tabs */
+.category-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.tab {
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 200ms ease;
+}
+
+.tab:hover {
+  color: #2a8b5e;
+}
+
+.tab.active {
+  color: #2a8b5e;
+  border-bottom: 2px solid #2a8b5e;
+  position: relative;
+  bottom: -10px;
+}
+
+/* Skill Buttons */
+.skill-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  min-height: 35px;
+}
+
+.skill-btn {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: white;
+  color: #333;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 200ms ease;
+}
+
+.skill-btn:hover {
+  border-color: #2a8b5e;
+  color: #2a8b5e;
+}
+
+.skill-btn.selected {
+  background: #2a8b5e;
+  color: white;
+  border-color: #2a8b5e;
+}
+
+/* Selected List */
+.selected-list {
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.selected-list p {
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  color: #666;
+  font-weight: 500;
+}
+
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  min-height: 20px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 8px;
+  background: #e8f5e9;
+  color: #2a8b5e;
+  border-radius: 12px;
+  font-size: 13px;
+  border: 1px solid #c8e6c9;
+}
+
+.remove-btn {
+  background: none;
+  border: none;
+  color: #2a8b5e;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.remove-btn:hover {
+  color: #d32f2f;
+}

@@ -1,0 +1,272 @@
+.profile-view {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.btn-back {
+  background: none;
+  border: none;
+  color: #2a8b5e;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 16px;
+  padding: 0;
+  transition: all 200ms ease;
+}
+
+.btn-back:hover {
+  color: #1f6a47;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 30px;
+}
+
+.error {
+  text-align: center;
+  color: #d32f2f;
+  padding: 30px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: #2a8b5e;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0 auto 12px;
+  box-shadow: 0 2px 8px rgba(42, 139, 94, 0.2);
+}
+
+.profile-header h1 {
+  margin: 0;
+  color: #333;
+  font-size: 28px;
+}
+
+.type {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+}
+
+/* Compatibility Box */
+.compatibility-box {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  text-align: center;
+  border-left: 5px solid;
+}
+
+.compatibility-box.excellent {
+  background: #e8f5e9;
+  border-left-color: #4caf50;
+}
+
+.compatibility-box.good {
+  background: #fff3e0;
+  border-left-color: #ff9800;
+}
+
+.compatibility-box.fair {
+  background: #fce4ec;
+  border-left-color: #e91e63;
+}
+
+.compatibility-box.poor {
+  background: #f5f5f5;
+  border-left-color: #999;
+}
+
+.score-badge {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.score-message {
+  margin: 8px 0 0 0;
+  color: #666;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.score-detail {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.score-detail strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  color: #555;
+}
+
+.skill-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.skill-match {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #c8e6c9;
+  color: #1b5e20;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.skill-needed {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #ffe0b2;
+  color: #e65100;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Profile Sections */
+.profile-section {
+  margin-bottom: 25px;
+}
+
+.profile-section h2 {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  color: #333;
+  border-bottom: 2px solid #2a8b5e;
+  padding-bottom: 8px;
+}
+
+.profile-section p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.skill-grid {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.skill-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  background: #e8f5e9;
+  color: #2a8b5e;
+  border-radius: 20px;
+  font-size: 13px;
+  border: 1px solid #c8e6c9;
+  font-weight: 500;
+}
+
+.interest-text {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #333;
+  min-width: 100px;
+}
+
+.contact-item a {
+  color: #2a8b5e;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+/* Actions */
+.profile-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.btn-primary,
+.btn-secondary {
+  flex: 1;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 200ms ease;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: #2a8b5e;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #1f6a47;
+}
+
+.btn-secondary {
+  background: white;
+  color: #2a8b5e;
+  border: 2px solid #2a8b5e;
+}
+
+.btn-secondary:hover {
+  background: #f0f9f7;
+}
+
+/* Meta */
+.profile-meta {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.profile-meta small {
+  color: #999;
+  font-size: 12px;
+}
